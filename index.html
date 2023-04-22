@@ -7,7 +7,7 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="%VITE_DESCRIPTION%"
     />
     <link rel="apple-touch-icon" href="/logo192.png" />
     <link rel="manifest" href="/manifest.json" />
@@ -16,5 +16,10 @@
   <body>
     <div id="root"></div>
     <script type="module" src="src/index.tsx"></script>
+    <% if(process.env.SAY_HELLO){ %>
+    <script>
+      console.log("%c" + "Howdy!", "color: yellow;")
+    </script>
+    <% } %>
   </body>
 </html>
