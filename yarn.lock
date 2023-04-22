@@ -9409,6 +9409,7 @@ vary@~1.1.2:
   integrity sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 vite-node@0.30.1:
   version "0.30.1"
   resolved "https://registry.yarnpkg.com/vite-node/-/vite-node-0.30.1.tgz#ab0ed1553019c7d81ac95529c57ab8ac9e82347d"
@@ -9473,6 +9474,16 @@ vitest@^0.30.1:
 
 ||||||| parent of 1acdb7a (feat(1.install-vite-react-plugin): part 1)
 =======
+||||||| parent of d0674bc (feat(3.ejs-templating): adding ejs templating)
+=======
+vite-plugin-ejs@^1.6.4:
+  version "1.6.4"
+  resolved "https://registry.yarnpkg.com/vite-plugin-ejs/-/vite-plugin-ejs-1.6.4.tgz#aa30820d8235774e717d902754a552480cf7758b"
+  integrity sha512-23p1RS4PiA0veXY5/gHZ60pl3pPvd8NEqdBsDgxNK8nM1rjFFDcVb0paNmuipzCgNP/Y0f/Id22M7Il4kvZ2jA==
+  dependencies:
+    ejs "^3.1.8"
+
+>>>>>>> d0674bc (feat(3.ejs-templating): adding ejs templating)
 vite@^4.3.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/vite/-/vite-4.3.1.tgz#9badb1377f995632cdcf05f32103414db6fbb95a"
