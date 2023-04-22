@@ -19,7 +19,7 @@
   "scripts": {
     "start": "vite --port 3000",
     "build": "vite build",
-    "test": "react-scripts test",
+    "test": "vitest run --silent",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -42,7 +42,9 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
+    "jsdom": "^21.1.1",
     "vite": "^4.3.1",
-    "vite-plugin-ejs": "^1.6.4"
+    "vite-plugin-ejs": "^1.6.4",
+    "vitest": "^0.30.1"
   }
 }
