@@ -20,7 +20,7 @@
     "start": "vite --port 3000",
     "build": "vite build",
     "test": "vitest run --silent",
-    "eject": "react-scripts eject"
+    "build:preview": "vite build && vite preview --port 4000"
   },
   "eslintConfig": {
     "extends": [
@@ -45,6 +45,7 @@
     "jsdom": "^21.1.1",
     "vite": "^4.3.1",
     "vite-plugin-ejs": "^1.6.4",
+    "vite-plugin-pwa": "^0.14.7",
     "vitest": "^0.30.1"
   }
 }

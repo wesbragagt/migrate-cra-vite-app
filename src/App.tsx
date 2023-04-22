@@ -11,7 +11,7 @@ function App() {
           Edit this with Vite and experience speed
         </p>
         <p>
-{appEnv}
+          {appEnv}
         </p>
         <a
           className="App-link"
