@@ -8,11 +8,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-<<<<<<< HEAD
           Edit this with Vite and experience speed
         </p>
         <p>
-{appEnv}
+          {appEnv}
         </p>
         <a
           className="App-link"
