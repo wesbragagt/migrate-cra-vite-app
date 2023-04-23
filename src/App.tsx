@@ -3,6 +3,7 @@ import './App.css';
 
 function App() {
   const appEnv = import.meta.env.VITE_APP_ENV;
+  const description = import.meta.env.VITE_DESCRIPTION;
   return (
     <div className="App">
       <header className="App-header">
@@ -10,9 +11,12 @@ function App() {
         <p>
           Edit this with Vite and experience speed
         </p>
-        <p>
-          {appEnv}
-        </p>
+        <div>
+          <p style={{color: 'yellow'}}>
+            {appEnv}
+          </p>
+          <p style={{color: 'yellow'}}>{description}</p>
+        </div>
         <a
           className="App-link"
           href="https://reactjs.org"
