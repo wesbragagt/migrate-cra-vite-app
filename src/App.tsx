@@ -18,7 +18,7 @@ function App() {
           <p style={{color: 'yellow'}}>{description}</p>
         </div>
         <a
-          className="App-link"
+          className="btn bg-blue-500 px-4 py-2 rounded my-2"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
