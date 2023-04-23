@@ -2,7 +2,7 @@
 
 This repository demonstrates how to migrate from CRA to Vite in [six simple pull-requests](https://github.com/wesbragagt/migrate-cra-vite-app/pulls?q=is%3Apr+is%3Aclosed+sort%3Acreated-asc), which include:
 
-1. Crazy fast bundling and development hot module replacement
+1. Vite and React
 2. Environment Variables
 3. EJS Templating
 4. Testing Framework with Vitest
